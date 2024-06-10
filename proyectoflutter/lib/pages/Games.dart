@@ -44,7 +44,7 @@ class GameRoute extends StatelessWidget{
                   child: const Icon(Icons.remove),
               ),
             ],
-            ),
+          ),
         ),
       )
     );
