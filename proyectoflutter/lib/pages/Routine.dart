@@ -26,6 +26,7 @@ class RutineRoute extends StatelessWidget {
                 title: Text('Rutina para: FNV'),
                 subtitle: Text('metas alcansadas: 1/20'),
               ),
+              const Padding(padding: EdgeInsets.only(bottom: 300)),
               ElevatedButton(
                 onPressed: () {
                   //Navigator.pop(context);

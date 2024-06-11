@@ -25,6 +25,13 @@ class UserRoute extends StatelessWidget {
                 leading: Icon(Icons.lock_person),
                 title: Text('ID Usuario: ********'),
               ),
+              const Padding(padding: EdgeInsets.only(bottom: 300)),
+              ElevatedButton(
+                onPressed: () {
+                  //Navigator.pop(context);
+                  },
+                  child: const Text('Cerrar secion'),
+              ),
              ],
           ),
         ),

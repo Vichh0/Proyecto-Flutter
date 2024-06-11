@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:proyectoflutter/pages/Home.dart';
+import 'package:proyectoflutter/pages/other.dart';
+
 
 
 class Access extends StatelessWidget {
@@ -32,7 +34,7 @@ class Access extends StatelessWidget {
               onPressed: () {
                Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Home()));
+              MaterialPageRoute(builder: (context) => MyApp()));
             },
              child: const Text('Acceder'),
              ),

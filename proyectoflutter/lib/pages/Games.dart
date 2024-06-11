@@ -32,6 +32,7 @@ class GameRoute extends StatelessWidget{
                 title: Text('Leage of Legends'),
                 subtitle: Text('400 horas jugadas'),
               ),
+              const Padding(padding: EdgeInsets.only(bottom: 200)),
               ElevatedButton(
                 onPressed: () {
                   //Navigator.pop(context);
