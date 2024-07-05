@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
               title: const Text('Home'),
               selected: Index == 0,
               onTap: () {
-                _onItemTapped(0);
+                _onItemTapped(0); 
                 Navigator.pop(context);
               },
             ),

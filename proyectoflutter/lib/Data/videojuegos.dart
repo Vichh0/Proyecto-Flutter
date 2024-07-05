@@ -4,7 +4,7 @@ class Videojuegos{
   int ID = 0;
   String NombreJu= "";
   String DescripcionJu = "";
-  List<Rutina> rutinas;
+  //List<Rutina> rutinas;
   String modo_juego = "";
   String image_name = "";
 }
