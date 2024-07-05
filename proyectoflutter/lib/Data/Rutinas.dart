@@ -1,6 +1,8 @@
 class Rutina{
-  String rutina = "";
-  String metas = "";
-  void annadirrutina(){}
-  void borrarrutina(){}
+  int ID = 0;
+  String Nombre = "";
+  String Descripcion = "";
+  List<String> Tareas{};
+  String resultado = "";
+  String Dificultad = "";
 }

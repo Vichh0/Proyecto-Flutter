@@ -1,8 +1,10 @@
+import 'package:proyectoflutter/Data/Rutinas.dart';
+
 class Videojuegos{
-  String names = "";
-  String horas = "";
-  String genero = "";
-  String info = "";
-  void annadir(){}
-  void borrar(){}
+  int ID = 0;
+  String NombreJu= "";
+  String DescripcionJu = "";
+  List<Rutina> rutinas;
+  String modo_juego = "";
+  String image_name = "";
 }
