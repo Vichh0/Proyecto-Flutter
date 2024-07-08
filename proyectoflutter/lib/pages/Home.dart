@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:proyectoflutter/pages/Games.dart';
-import 'package:proyectoflutter/pages/User.dart';
 import 'package:proyectoflutter/pages/Routine.dart';
 
 class HomePage extends StatefulWidget {
@@ -74,22 +73,14 @@ class _HomePageState extends State<HomePage> {
               selected: Index == 1,
               onTap: () {
                 _onItemTapped(1);
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
-              title: const Text('Rutinas'),
-              selected: Index == 2,
-              onTap: () {
-                _onItemTapped(2);
-                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const GameRoute()));
               },
             ),
             ListTile(
               title: const Text('Historial'),
-              selected: Index == 3,
+              selected: Index == 2,
               onTap: () {
-                _onItemTapped(3);
+                _onItemTapped(2);
                 Navigator.pop(context);
               },
             )

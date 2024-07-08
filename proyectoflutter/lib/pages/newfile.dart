@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:proyectoflutter/pages/Acses.dart';
 import 'package:proyectoflutter/pages/Games.dart';
-import 'package:proyectoflutter/pages/User.dart';
 import 'package:proyectoflutter/pages/Routine.dart';
 
 class MyApp1 extends StatelessWidget {

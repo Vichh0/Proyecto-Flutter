@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:proyectoflutter/pages/Home.dart';
 
-
-
-
 class Access extends StatelessWidget {
   const Access({super.key});
   @override
